@@ -18,3 +18,6 @@ These parameters are received from the github workflow UI. These are then passed
 ``` 
 
 * The credential used is ``` FINE GRAINED PERSONAL ACCESS TOKEN ```
+
+* Vulnerability alerts must be enabled to configure automated security fixes
+    [able-vulnerability-alerts](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#enable-vulnerability-alerts)
