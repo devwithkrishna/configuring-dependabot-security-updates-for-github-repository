@@ -21,3 +21,9 @@ These parameters are received from the github workflow UI. These are then passed
 
 * Vulnerability alerts must be enabled to configure automated security fixes
     [able-vulnerability-alerts](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#enable-vulnerability-alerts)
+
+* Enables private vulnerability reporting for a repository. The authenticated user must have admin access to the repository. 
+    [enable-private-vulnerability-reporting-for-a-repository](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#enable-private-vulnerability-reporting-for-a-repository)
+
+* Enables dependabot for a repository 
+    [enable-automated-security-fixes](https://docs.github.com/en/rest/repos/repos?apiVersion=2022-11-28#enable-automated-security-fixes)
