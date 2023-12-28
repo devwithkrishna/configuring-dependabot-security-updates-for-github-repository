@@ -12,7 +12,7 @@ on:
         default: ''
         description: 'Enter the repository name'
         required: true
-         
+run-name: Dependabot for ${{ inputs.repository_name}}        
 jobs:
   configure-dependabot-using-github-workflow:
     runs-on: ubuntu-latest
